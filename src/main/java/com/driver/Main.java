@@ -13,10 +13,10 @@ public class Main {
         }
     }
 
-    public static void Main(String[] args){
+    public static void main(String[] args){
         B obj = new B();
-        obj.math();
-        B obj1 = new B();
-        obj1.math();
+        System.out.println(obj.math());
+
+
     }
 }
